@@ -1,0 +1,37 @@
+h1{
+    border: 2px solid black;
+    padding: 5px;
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.button-contain{
+    display: flex;
+}
+button{
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.key-container{
+    display: flex;
+}
+#log,#state{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    border: 2px  solid black;
+    background-color: #ffa500;
+}
+#state{
+    background-color: grey;
+}
